@@ -342,13 +342,17 @@ footer {
     }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:360px) {  
+    main {
+        height: 76vh;
+    }
+
     .entrada {
         height: 42vh;
     }
 
-    main {
-        height: 76vh;
+    .salida {
+        margin-top: 4%;
     }
 
     footer {
@@ -358,5 +362,27 @@ footer {
 
     .redes {
         width: 55%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .text-area {
+        height: 60%;
+    }
+
+    .salida {
+        margin-top: 0px;
+    }
+
+    .salida-defecto {
+        font-size: 16px;
+    }
+
+    .info-defecto {
+        font-size: 12px;
+    }
+
+    .autor {
+        padding-top: 4%;
     }
 }
