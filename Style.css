@@ -343,7 +343,20 @@ footer {
 }
 
 @media screen and (max-width:360px) {
-     .entrada {
-        height: 45vh;
-     }
+    .entrada {
+        height: 42vh;
+    }
+
+    main {
+        height: 76vh;
+    }
+
+    footer {
+        height: 16vh;
+        font-size: 14px;
+    }
+
+    .redes {
+        width: 55%;
+    }
 }
