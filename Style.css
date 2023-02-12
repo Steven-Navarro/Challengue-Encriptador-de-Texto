@@ -341,3 +341,9 @@ footer {
         width: 35%;
     }
 }
+
+@media screen and (max-width:360px) {
+     .entrada {
+        height: 45vh;
+     }
+}
